@@ -35,3 +35,33 @@ print(a[8:11:1])
 
 #College-
 print(a[17:24:1])
+
+#Type Conversion -:
+
+#if we have convert string into integer by using this int()
+a = "12" #string
+b = int(a) #integer
+print(a)
+print(b)
+print(type(a)) #str - output
+print(type(b)) #int - output
+# we can convert string if it holds valid integers
+
+# we can convert float values to int
+a = 12.5 
+a = int(a) 
+print(a)
+
+#bool()-       7 values will be false -: false, 0, 0.0, "", [], (), {}
+a = 12
+b = 0
+c = 12.4
+d = 0.0
+e = ""
+f = "hello"
+print(bool(a))
+print(bool(b))
+print(bool(c))
+print(bool(d))
+print(bool(e))
+print(bool(f))
