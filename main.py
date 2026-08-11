@@ -1,6 +1,6 @@
 
 #This is the line for printing
-print("hello NYC people")
+print(hello NYC people)
 
 #Variables = #camelCase - myVariableName
              #PascalCase - MyVariableName
