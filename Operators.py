@@ -39,3 +39,19 @@ print(10 * 2 / 5)
 print(3 + 4 * 2)             # 11
 print(15 // 4 + 15 % 4)      # 6
 print(3 + 2 ** 2 * 5 - 1)    # 22
+
+# Comparison Operators -:
+
+#(==. >, <, >=, <=, !=)
+
+print(16 == 16)        # True
+
+print(12 > 14)         # False
+
+print(12 < 45)         # True
+
+print(12 >= 12)        # True
+
+print(45 <= 56)        # True
+
+print(23 != 23)        # False
