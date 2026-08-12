@@ -38,7 +38,7 @@ print(a[17:24:1])
 
 #Type Conversion -:
 
-#if we have convert string into integer by using this int()
+#if we have  to convert string into integer by use this int()
 a = "12" #string
 b = int(a) #integer
 print(a)
