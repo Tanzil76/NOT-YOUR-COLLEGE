@@ -55,3 +55,34 @@ print(12 >= 12)        # True
 print(45 <= 56)        # True
 
 print(23 != 23)        # False
+
+# Logical Operators -:
+
+# and, or and not
+
+# and - same answer then it will give true and if one answer is different it will give  whole false.
+print(12 > 10 and 34 == 34 and 10 > 20) # False
+
+# or - if one of the answer is true and others are false then it give true.
+print(34 == 45 or 12 == 12 or 67 == 69) # True
+
+# and - it change the answer if true convert to false and vice - versa.
+print(not 12 == 34) # True
+
+# Solve -:
+
+print((5 > 3 and 10 == 10) or (4 != 4 and 2 < 1))  # True
+
+print((10 == 10 and 23 != 23) or (34 == 12 and bool("hello"))) # False
+
+print(not(5 == 5 and 3 != 4) or (10 > 20)) # False
+
+# Assignment Operators -: are used to assign values to variables.
+
+# += - add and assign, -= - subtract and assign, *= - multiply and assign , /= - divide and assign, //= - floor divide and assign, %= - modulus and assign, **== - power and assign
+
+a = 10
+a += 10
+a += 10
+
+print(a) # 30
