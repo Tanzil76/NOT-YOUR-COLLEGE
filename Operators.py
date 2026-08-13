@@ -42,7 +42,7 @@ print(3 + 2 ** 2 * 5 - 1)    # 22
 
 # Comparison Operators -:
 
-#(==. >, <, >=, <=, !=)
+#(==, >, <, >=, <=, !=)
 
 print(16 == 16)        # True
 
@@ -66,7 +66,7 @@ print(12 > 10 and 34 == 34 and 10 > 20) # False
 # or - if one of the answer is true and others are false then it give true.
 print(34 == 45 or 12 == 12 or 67 == 69) # True
 
-# and - it change the answer if true convert to false and vice - versa.
+# not - it change the answer if true convert to false and vice - versa.
 print(not 12 == 34) # True
 
 # Solve -:
