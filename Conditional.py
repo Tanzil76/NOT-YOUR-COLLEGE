@@ -27,10 +27,23 @@ else:
 
 # 1. Accept two numbers and print the greatest between them.
 
-num1 = int(input("Please give me me first number :-"))
-num2 = int(input("Please give me me second number :-"))
+num1 = int(input("Please give me me first number :- "))
+num2 = int(input("Please give me me second number :- "))
 
 if num1 > num2:
     print(f"{num1} is greater than {num2}")
-else:
+elif num2 > num1:
     print(f"{num2} is greater than {num1}")
+else:
+    print("Both the numbers are equal")
+
+# 2.
+
+gender = input("Please tell your gender in (M or F) :- ")
+
+if gender == "M":
+    print("Hello Sir")
+elif gender == "F":
+    print("Hello Mam")
+else:
+    print("Others")
