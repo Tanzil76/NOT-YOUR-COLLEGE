@@ -37,7 +37,7 @@ elif num2 > num1:
 else:
     print("Both the numbers are equal")
 
-# 2.
+# 2. Accept gender from user and print a greeting message.
 
 gender = input("Please tell your gender in (M or F) :- ")
 
@@ -47,3 +47,12 @@ elif gender == "F" or gender == "f":
     print("Hello Mam")
 else:
     print("Others")
+
+# 3. Accept an integer and check if it is even or odd.
+
+a = int(input("Please tell your number :- "))
+
+if a % 2 == 0:
+    print("Even Number")
+else:
+    print("Odd Number")
