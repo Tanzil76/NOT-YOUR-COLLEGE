@@ -41,9 +41,9 @@ else:
 
 gender = input("Please tell your gender in (M or F) :- ")
 
-if gender == "M":
+if gender == "M" or gender == "m":
     print("Hello Sir")
-elif gender == "F":
+elif gender == "F" or gender == "f":
     print("Hello Mam")
 else:
     print("Others")
