@@ -14,10 +14,13 @@ range(46)
 
 # For loop -:
 
+  # Syntax - for i in range(start, stop, step)
+
 for i in range(46):
     print(i)
 
 # Print table of 5
 
-for i in range(5,51,5):
+n = int(input("Tell your number -: "))
+for i in range(n, (n*10)+1, n):
     print(i)
