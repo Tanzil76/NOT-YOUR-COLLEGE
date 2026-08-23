@@ -36,3 +36,24 @@ for i in a:
 
 for i in range(len(a)):  # (0, len(a), 1) -: default value -: len() is size of string.
     print(f"{i} : {a[i]}")
+
+   # break -: stops the loop
+for i in range(1, 11):
+    if i == 5:
+        break
+    print(i)   # 1 2 3 4 
+
+   # continue -: jump from the value
+for i in range(1, 11):
+    if i == 5:
+        continue
+    print(i)     # 1 2 3 4 6 7 8 9 10
+
+   # else -: it works with break means if break works else will not work and if break dosen't work then else work.
+for i in range(1, 11):
+    if i == 4:
+        break
+    print(i)  
+else:
+    print("no break was encountered")
+
