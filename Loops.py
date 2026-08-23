@@ -14,7 +14,9 @@ range(46)
 
 # For loop -:
 
-  # Syntax - for i in range(start, stop, step)
+ # For numbers -:
+
+  # Syntax - for i in range(start, stop, step):
 
 for i in range(46):
     print(i)
@@ -24,3 +26,13 @@ for i in range(46):
 n = int(input("Tell your number -: "))
 for i in range(n, (n*10)+1, n):
     print(i)
+
+ # For Strings -:
+
+a = "Students"
+
+for i in a:
+    print(i)        # S t u d e n t s
+
+for i in range(len(a)):
+    print(f"{i} : {a[i]}")
