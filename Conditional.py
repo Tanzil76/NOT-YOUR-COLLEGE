@@ -27,8 +27,8 @@ else:
 
 # 1. Accept two numbers and print the greatest between them.
 
-num1 = int(input("Please give me me first number :- "))
-num2 = int(input("Please give me me second number :- "))
+num1 = int(input("Please give me first number :- "))
+num2 = int(input("Please give me second number :- "))
 
 if num1 > num2:
     print(f"{num1} is greater than {num2}")
@@ -60,9 +60,36 @@ else:
 # 4. Accept name and age - check if the user is a valid voter (18+).
 
 name = input("Give me your name :- ")
-ag = int(input("Give me your age :- "))
+age = int(input("Give me your age :- "))
 
-if ag >= 18:
+if age >= 18:
     print(f"Hello {name} you are not a valid voter")
 else:
-    print(f"Hello {name} you are vote after {18 - age}")
+    print(f"Hello {name} you vote after {18 - age}")
+
+# 5. Accept a year and check if it is a leap year.
+
+year = int(input("Give year -: "))
+
+if year % 100 == 0 and year % 400 == 0:
+    print("This year is a leap year")
+elif year % 100 != 0 and year %4 == 0:
+    print("This year is a normal year")    
+else:
+    print("This year is not a leap year")
+
+# 5. Accept tempearture in C and print a description.
+
+temp = int(input("Give me tempeature -: "))
+
+if temp >= -5 and temp <= 5:
+    print("Very Cold")
+elif temp >= 6 and temp <= 18:   
+    print("Cold") 
+elif temp  >= 19 and temp <= 30:
+    print("Hot")
+else:
+    print("Very Hot")        
+
+
+
