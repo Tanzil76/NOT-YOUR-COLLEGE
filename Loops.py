@@ -51,9 +51,24 @@ for i in range(1, 11):
 
    # else -: it works with break means if break works else will not work and if break dosen't work then else work.
 for i in range(1, 11):
-    if i == 4:
+    if i == 45:
         break
     print(i)  
 else:
     print("no break was encountered")
+
+ # Solve
+
+# 1. Print "Hello World" n times.
+
+n = int(input("Tell your number -: "))
+for i in range(n):
+    print("Hello World")
+
+# 2. print natural numbers form 1 to n.
+
+n = int(input("Tell how many natural numbers you want -: "))
+for i in range(1,n+1):
+    print(i)
+
 
