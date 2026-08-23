@@ -56,3 +56,13 @@ if a % 2 == 0:
     print("Even Number")
 else:
     print("Odd Number")
+
+# 4. Accept name and age - check if the user is a valid voter (18+).
+
+name = input("Give me your name :- ")
+ag = int(input("Give me your age :- "))
+
+if ag >= 18:
+    print(f"Hello {name} you are not a valid voter")
+else:
+    print(f"Hello {name} you are vote after {18 - age}")
