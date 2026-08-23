@@ -34,5 +34,5 @@ a = "Students"
 for i in a:
     print(i)        # S t u d e n t s
 
-for i in range(len(a)):
+for i in range(len(a)):  # (0, len(a), 1) -: default value -: len() is size of string.
     print(f"{i} : {a[i]}")
