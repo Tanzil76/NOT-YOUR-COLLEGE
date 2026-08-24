@@ -111,3 +111,10 @@ for i in range(1, n+1):
     else:
         oddsum = oddsum + i
 print(f"Even Sum is {evensum} and Odd Sum is {oddsum}")
+
+# 8. 
+
+n = int(input("Give number -: "))
+for i in range(1,n+1):
+    if n % i == 0:
+        print(i)
