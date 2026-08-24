@@ -143,3 +143,11 @@ if count == 2:
     print("Prime number")
 else:
     print("Composite number")
+
+# 11. Reverse a string without using bulit-in functions.
+
+a = "Python"
+rev = ""
+for i in range(len(a)-1,-1, -1):
+    rev = rev + a[i]
+print(rev)
