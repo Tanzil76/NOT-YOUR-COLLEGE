@@ -74,6 +74,11 @@ for i in range(1,n+1):
 # 3. Reverse for loop - print n down to 1.
 
 n = int(input("Tell your number -: "))
-for i in range(50,0,-1):
+for i in range(n,0,-1):
     print(i)
 
+# 4. Print the multiplication table of a number.
+
+n = int(input("Which number of table we want -: "))
+for i in range(1,11):
+    print(f"{n} x {i} = {n*i}")
