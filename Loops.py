@@ -112,9 +112,16 @@ for i in range(1, n+1):
         oddsum = oddsum + i
 print(f"Even Sum is {evensum} and Odd Sum is {oddsum}")
 
-# 8. 
+# 8. Print all factors of a number.
 
 n = int(input("Give number -: "))
 for i in range(1,n+1):
+    if n % i == 0:
+        print(i)
+
+# 9. Check if a number is perfect(sum of factors = the number itself.)
+
+n = int(input("Give number -: "))
+for i in range(1,n):
     if n % i == 0:
         print(i)
