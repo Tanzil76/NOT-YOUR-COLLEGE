@@ -122,6 +122,12 @@ for i in range(1,n+1):
 # 9. Check if a number is perfect(sum of factors = the number itself.)
 
 n = int(input("Give number -: "))
+
+s = 0
 for i in range(1,n):
     if n % i == 0:
-        print(i)
+        s = s + i
+if s == n:
+    print("Perfect number")
+else:
+    print("Not a perfect number")    
