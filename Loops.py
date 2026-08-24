@@ -151,3 +151,15 @@ rev = ""
 for i in range(len(a)-1,-1, -1):
     rev = rev + a[i]
 print(rev)
+
+# 12. Check if a string is a palindrome.
+
+a = input("Tell your string -: ")
+rev = ""
+for i in range(len(a)-1,-1, -1):
+    rev = rev + a[i]
+
+if rev == a:
+    print("It is Palindrome")
+else:
+    print("It is not a Palindrome")
