@@ -156,10 +156,27 @@ print(rev)
 
 a = input("Tell your string -: ")
 rev = ""
-for i in range(len(a)-1,-1, -1):
+for i in range(len(a)-1,-1, -1): # using indexing here.
     rev = rev + a[i]
 
 if rev == a:
     print("It is Palindrome")
 else:
     print("It is not a Palindrome")
+
+# 13. Count letters, digits and special symbols in a string.
+
+a = "P@#yn26at^&i5ve"
+
+char = 0
+spchar = 0
+digits = 0
+
+for i in a:
+    if i.isdigit():         # functions to check digit.
+        digits = digits + 1
+    elif i.isalpha():       # functions to check alphabet.
+        char = char + 1
+    else:
+        spchar = spchar + 1
+print(f"characters - {char}, special characters - {spchar}, digits - {digits}")     
