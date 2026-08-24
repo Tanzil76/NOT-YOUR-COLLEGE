@@ -90,3 +90,24 @@ n = int(input("Tell how many natural numbers sum we want -: "))
 for i in range(1,n+1):
     s = s + i
 print(s)
+
+# 6. Factorial of a number.
+
+m = 1
+n = int(input("Give number for factorial -: "))
+for i in range(1,n+1):
+    m = m * i
+print(m)
+
+# 7. Print sum of all even and odd numbers in a range separately.
+
+n = int(input("Give number -: "))
+es = 0
+os = 0
+
+for i in range(1, n+1):
+    if i % 2 == 0:
+        es = es + i
+    else:
+        os = os + i
+print(f"Even Sum is {es} and Odd Sum is {os}")
