@@ -71,4 +71,9 @@ n = int(input("Tell how many natural numbers you want -: "))
 for i in range(1,n+1):
     print(i)
 
+# 3. Reverse for loop - print n down to 1.
+
+n = int(input("Tell your number -: "))
+for i in range(50,0,-1):
+    print(i)
 
