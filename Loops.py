@@ -102,12 +102,12 @@ print(m)
 # 7. Print sum of all even and odd numbers in a range separately.
 
 n = int(input("Give number -: "))
-es = 0
-os = 0
+evensum = 0
+oddsum = 0
 
 for i in range(1, n+1):
     if i % 2 == 0:
-        es = es + i
+        evensum = evensum + i
     else:
-        os = os + i
-print(f"Even Sum is {es} and Odd Sum is {os}")
+        oddsum = oddsum + i
+print(f"Even Sum is {evensum} and Odd Sum is {oddsum}")
