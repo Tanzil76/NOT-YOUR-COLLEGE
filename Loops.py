@@ -82,3 +82,11 @@ for i in range(n,0,-1):
 n = int(input("Which number of table we want -: "))
 for i in range(1,11):
     print(f"{n} x {i} = {n*i}")
+
+# 5. Sum of first n natural numbers.
+
+s = 0
+n = int(input("Tell how many natural numbers sum we want -: "))
+for i in range(1,n+1):
+    s = s + i
+print(s)
