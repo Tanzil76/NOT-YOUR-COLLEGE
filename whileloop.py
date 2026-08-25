@@ -13,10 +13,8 @@ while a != 20:
 
 # 1. Separate each digit of a number and print on a new line.
 
-a = 456
-print(a % 10)
-a = a // 10
-print(a % 10)
-a = a // 10
-print(a % 10)
+a = int(input("Please tell your number -: "))
 
+while a > 0:
+    print(a % 10)
+    a = a // 10
