@@ -27,3 +27,16 @@ while a > 0:
     rev = rev * 10 + a % 10
     a = a // 10
 print(rev)
+
+# 3. Check if a number is palindromic (equal to its reverse).
+
+a = int(input("Please tell your number -: "))
+copy = a                  # to store value of 'a'
+rev = 0
+while a > 0:
+    rev = rev * 10 + a % 10
+    a = a // 10
+if rev == copy:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
