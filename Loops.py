@@ -65,7 +65,7 @@ n = int(input("Tell your number -: "))
 for i in range(n):
     print("Hello World")
 
-# 2. print natural numbers form 1 to n.
+# 2. print natural numbers from 1 to n.
 
 n = int(input("Tell how many natural numbers you want -: "))
 for i in range(1,n+1):
