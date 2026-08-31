@@ -33,3 +33,9 @@ a.append(60)   # adds a value to the last spot
 a.append("Hello")
 a.insert(2,25)   # add values in the middle
 print(a) 
+
+# insert method -: list,insert(value) - add values in the middle.
+
+a = [10,20,40,50]
+a.insert(2,30) 
+print(a) 
