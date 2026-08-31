@@ -120,3 +120,14 @@ for i in a:
         sec_largest = i
 
 print(sec_largest)
+
+# 5. Check the list is already sorted.
+
+a = [10,20,30,40,60,50]
+
+for i in range(len(a)-1):
+    if a[i] > a[i+1]:
+        print("List is not sorted")
+        break
+else:
+    print("List is sorted")
