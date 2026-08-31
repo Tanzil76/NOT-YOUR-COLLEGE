@@ -26,7 +26,7 @@ for i in a:
 for i in range(0,len(a)):     # len(a) - means length of a list 
     print(f"{i} : {a[i]}")   # 0 : 10  , 1 : 20  , 2 : 30  , 3 : 40  , 4 : 50
 
-# append method -: list.append(value) - adding new element in list.
+# append method -: list.append(value) - adding new element in list in the end.
 
 a = [10,20,30,40,50]
 a.append(60)
