@@ -53,3 +53,10 @@ addition(5,5,5)
 def subtraction(a,b,c):
     print(b-a-c)
 subtraction(20,c = 40, b = 34)
+
+# return -: print inside a function 
+
+def hello():
+    return "How are you"
+b = hello()
+print(b)
