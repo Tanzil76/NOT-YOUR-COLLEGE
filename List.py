@@ -33,8 +33,15 @@ a.append(60)   # adds a value to the last spot
 a.append("Hello")
 print(a)     # [10,20,30,40,50,60,'Hello']
 
-# insert method -: list,insert(value) - add values in the middle.
+# insert method -: list.insert(index,add value) - add values in the middle.
 
 a = [10,20,40,50]
 a.insert(2,30) 
 print(a)     #  [10,20,30,40,50]
+
+# pop method -: list.pop(index) - remove value from the list.
+
+l = [10,20,30,40,55,50]
+a = l.pop()    # default index value "-1".
+print(l)
+print(a)
