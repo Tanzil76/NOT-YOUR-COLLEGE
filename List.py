@@ -45,3 +45,9 @@ l = [10,20,30,40,55,50]
 a = l.pop()    # default index value "-1".
 print(l)
 print(a)
+
+# remove method -: list.remove(element value) - remove element
+
+l = [10,20,55,30,40,55,50]
+l.remove(55)
+print(l)
