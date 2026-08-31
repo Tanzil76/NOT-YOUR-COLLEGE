@@ -39,7 +39,7 @@ a = [10,20,40,50]
 a.insert(2,30) 
 print(a)     #  [10,20,30,40,50]
 
-# pop method -: list.pop(index) - remove value from the list.
+# pop method -: list.pop(index) - remove or pop value from the list.
 
 l = [10,20,30,40,55,50]
 a = l.pop()    # default index value "-1".
