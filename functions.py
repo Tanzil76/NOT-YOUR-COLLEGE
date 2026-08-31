@@ -43,3 +43,13 @@ def multiplication(a,b,c,d):
 multiplication(5,2,3,6)
 
 # 2. Default arguments-
+
+def addition(a,b,d,c = 12):
+    print(a + b + c + d)
+addition(5,5,5)
+
+# 3. Keyword arguments-
+
+def subatraction(a,b,c):
+    print(b-a-c)
+subatraction(20,c = 40, b = 34)
