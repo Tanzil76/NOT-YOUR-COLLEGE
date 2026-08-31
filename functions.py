@@ -50,6 +50,6 @@ addition(5,5,5)
 
 # 3. Keyword arguments-
 
-def subatraction(a,b,c):
+def subtraction(a,b,c):
     print(b-a-c)
-subatraction(20,c = 40, b = 34)
+subtraction(20,c = 40, b = 34)
