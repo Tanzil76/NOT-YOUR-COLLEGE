@@ -51,3 +51,17 @@ print(a)
 l = [10,20,55,30,40,55,50]
 l.remove(55)
 print(l)
+
+# sort method -: sort list
+
+# i. For ascending order -:
+
+l = [29,45,67,12,90,34]
+l.sort()
+print(l)
+
+# ii. For Descending order -:
+
+l = [29,45,67,12,90,34]
+l.sort(reverse=True)
+print(l)
