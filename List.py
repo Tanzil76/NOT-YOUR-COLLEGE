@@ -105,3 +105,16 @@ for i in range(len(l)):
         index = i
 
 print(f"Largest value is {largest} at index {index}")
+
+# 4. Find the second largest element.
+
+a = [4,8,2,9,1]
+largest = a[0]
+sec_largest = a[0]
+
+for i in a:
+    if i > largest:
+        sec_largest = largest
+        largest = i
+
+print(sec_largest)
