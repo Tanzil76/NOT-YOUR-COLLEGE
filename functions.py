@@ -11,4 +11,10 @@ def hello():
     print("Hello how are you")
     print("Welcome To NYC")
 hello()                    # Function call here.
+
+def addition(a,b):
+    print(a + b)
+
+addition(13,25)
+addition(50,50)
             
