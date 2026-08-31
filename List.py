@@ -23,5 +23,5 @@ for i in a:
 
 # 2. Traversing on index.
 
-for i in range(0,len(a)):
+for i in range(0,len(a)):     # len(a) - means length of a list 
     print(f"{i} : {a[i]}")   # 0 : 10  , 1 : 20  , 2 : 30  , 3 : 40  , 4 : 50
