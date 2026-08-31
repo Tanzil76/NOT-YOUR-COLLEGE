@@ -12,9 +12,34 @@ def hello():
     print("Welcome To NYC")
 hello()                    # Function call here.
 
+
 def addition(a,b):
     print(a + b)
 
 addition(13,25)
 addition(50,50)
-            
+
+# Check palindrome using function.
+
+def palindrome_checker(a):
+    copy = a
+    rev = 0
+
+    while a > 0:
+        rev = rev * 10 + a % 10
+        a = a // 10
+    if copy == rev:
+        print("Palindrome number")
+    else:
+        print("Not a Palindrome")
+palindrome_checker(121)
+
+# Types of Arguments -:
+
+# 1. Positional arguments-
+
+def multiplication(a,b,c,d):
+    print(a * b * c * d)
+multiplication(5,2,3,6)
+
+# 2. Default arguments-
