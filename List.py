@@ -11,3 +11,17 @@ print(l)
 
 # 3. It can be accessed- access  by index.
 # 4. It can store duplicate values.
+
+# Traversing on list -:
+
+a = [10,20,30,40,50]
+
+# 1. Traversing on Values.
+
+for i in a:
+    print(i)  # 10 20 30 40 50
+
+# 2. Traversing on index.
+
+for i in range(0,len(a)):
+    print(f"{i} : {a[i]}")   # 0 : 10  , 1 : 20  , 2 : 30  , 3 : 40  , 4 : 50
