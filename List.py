@@ -8,3 +8,6 @@ print(a[1])
 l = [10,22,30,40,50]
 l[1] = 20
 print(l)
+
+# 3. It can be accessed- access  by index.
+# 4. It can store duplicate values.
