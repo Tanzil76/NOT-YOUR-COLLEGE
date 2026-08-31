@@ -65,3 +65,20 @@ print(l)
 l = [29,45,67,12,90,34]
 l.sort(reverse=True)
 print(l)
+
+# Solve -:
+
+# 1. Print all positive and negative elements seaprately.
+
+l = [3,-1,4,-5,9]
+pos = []
+neg = []
+
+for i in l:
+    if i >= 0:
+        pos.append(i)
+    else:
+        neg.append(i)
+
+print(f"Positive Elements -: {pos}")
+print(f"Neagtive Elements -: {neg}")
