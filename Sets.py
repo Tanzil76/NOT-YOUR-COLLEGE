@@ -20,7 +20,7 @@ s = {1,"Hello", (1,2,3)}
 l = {10,20,30,40}
 
 for i in l:
-    print(i)
+    print(i)     # 40 10 20 30
 
 # Methods -:
 
@@ -29,15 +29,15 @@ s = {10,20,30,40}
 # 1. add -:
 
 s.add(60)
-print(s)
+print(s)       # {40,10,20,60,30}
 
 # 2. clear -:
 
 s.clear()
-print(s)
+print(s)        # set()
 
 # 3. discard -:
 
 s = {10,20,30,40}
 s.discard(30)
-print(s)
+print(s)        # {40,10,20}
