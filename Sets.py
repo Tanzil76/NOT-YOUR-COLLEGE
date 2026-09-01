@@ -1,4 +1,4 @@
-# Sets -: A set automatically removes duplicates and has no guaranteed order. Great for checking membership and perorming math-style set operations. It stores using hash values.use -{} for set represenatation.
+# Sets -: A set automatically removes duplicates and has no guaranteed order. Great for checking membership and performing math-style set operations. It stores using hash values.use -{} for set representation.
 
 l = [1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9]
 
@@ -43,10 +43,11 @@ s = {10,20,30,40}
 s.discard(30)
 print(s)        # {40,10,20}
 
-# pop -: remove an element from set.
+# 4. pop -: remove an element from set.
 
 s = {10,20,30,40}
 
 a = s.pop()
 print(s)
 print(a)
+
