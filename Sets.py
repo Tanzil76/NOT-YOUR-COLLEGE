@@ -35,3 +35,9 @@ print(s)
 
 s.clear()
 print(s)
+
+# 3. discard -:
+
+s = {10,20,30,40}
+s.discard(30)
+print(s)
