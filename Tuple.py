@@ -3,16 +3,16 @@
 a = ["Monday", "Tuesday", 123, 567, 123, 123, 123]
 
 tup = tuple(a)
-print(type(tup))  
-print(tup[0])
-print(tup[-1])
+print(type(tup))     # <class 'tuple'>
+print(tup[0])        # Monday
+print(tup[-1])       # 123
 
 # Methods -: 
 
 # 1. index -  tup.index("string") - find index of a value.
 
-print(tup.index("Monday"))
+print(tup.index("Monday"))          # 0
 
 # 2. count - tup.count(how many times value repeat - count it).
 
-print(tup.count(123))
+print(tup.count(123))               # 4
