@@ -1,4 +1,4 @@
-# Sets -: it stores using hash values.use -{} for set represenatation.
+# Sets -: A set automatically removes duplicates and has no guaranteed order. Great for checking membership and perorming math-style set operations. It stores using hash values.use -{} for set represenatation.
 
 l = [1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,8,8,8,9,9]
 
