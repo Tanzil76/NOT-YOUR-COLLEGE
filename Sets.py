@@ -39,5 +39,14 @@ print(s)        # set()
 # 3. discard -:
 
 s = {10,20,30,40}
+
 s.discard(30)
 print(s)        # {40,10,20}
+
+# pop -:
+
+s = {10,20,30,40}
+
+a = s.pop()
+print(s)
+print(a)
