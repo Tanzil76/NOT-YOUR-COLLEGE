@@ -21,3 +21,17 @@ l = {10,20,30,40}
 
 for i in l:
     print(i)
+
+# Methods -:
+
+s = {10,20,30,40}
+
+# 1. add -:
+
+s.add(60)
+print(s)
+
+# 2. clear -:
+
+s.clear()
+print(s)
