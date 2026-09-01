@@ -14,3 +14,10 @@ print(hash(s))
 # Only hashable values we should store in sets.
 
 s = {1,"Hello", (1,2,3)}
+
+# Set is unordered means - which one execute first python don't know.
+
+l = {10,20,30,40}
+
+for i in l:
+    print(i)
