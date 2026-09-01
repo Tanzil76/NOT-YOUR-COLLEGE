@@ -43,7 +43,7 @@ s = {10,20,30,40}
 s.discard(30)
 print(s)        # {40,10,20}
 
-# 4. pop -: remove an element from set.
+# 4. pop -: remove an element from set. (randomly popped)
 
 s = {10,20,30,40}
 
