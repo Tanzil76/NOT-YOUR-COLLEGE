@@ -48,6 +48,6 @@ print(s)        # {40,10,20}
 s = {10,20,30,40}
 
 a = s.pop()
-print(s)
-print(a)
+print(s)       # {10,20,30}
+print(a)       # 40
 
