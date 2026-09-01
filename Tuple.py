@@ -15,4 +15,4 @@ print(tup.index("Monday"))          # 0
 
 # 2. count - tup.count(how many times value repeat - count it).
 
-print(tup.count(123))               # 4
+print(tup.count(123))                # 4
