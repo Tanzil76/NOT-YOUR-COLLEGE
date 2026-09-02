@@ -74,6 +74,15 @@ for i in d:   # i iterates on keys.
 
 # 1. Merge two dictionaries into one.
 
-d1 = {10:100,20:200,30:300,40:400} 
-d2 = {50:500,60:600,70:700,80:800}
+d1 = {"a":10,"b":20,"c":30} 
+d2 = {"d":40,"e":50,"f":60}
 
+for i in d2:
+    d1[i] = d2[i]
+print(d1)
+ 
+# sbse pehle d2 mai i chalega d pr 
+# pr fir uske baad d1[i] -> d1[d] - yeh new key ban gya d1 mai
+#  fir d2[i] -> d2[d] = 40 ho jayega iska mtlb jo naya key bana hai usme d1[d] usme 40 assign ho jayega 
+# fir krkte krte sb ho jayeange vice-versa. 
+# print hoga {'a':10,'b':20,'c':30,'d':40,'e':50,'f':60} 
