@@ -62,7 +62,7 @@ print(d.update({10:1000}))
 print(d.update({50:500}))
 print(d)
 
-# Traversing -:
+# Traversing (loops) -:
 
 d = {10:100,20:200,30:300,40:400} 
 
@@ -72,4 +72,4 @@ for i in d:   # i iterates on keys.
 
 # Solve -:
 
-# 1. 
+# 1.
