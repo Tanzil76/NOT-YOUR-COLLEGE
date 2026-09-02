@@ -108,4 +108,8 @@ for i in l:
         d[i] = 1
 print(d)
 
+# 4. Combine two dicts, adding values for common keys.
+
+
+
 
