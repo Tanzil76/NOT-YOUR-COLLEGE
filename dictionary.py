@@ -72,4 +72,8 @@ for i in d:   # i iterates on keys.
 
 # Solve -:
 
-# 1.
+# 1. Merge two dictionaries into one.
+
+d1 = {10:100,20:200,30:300,40:400} 
+d2 = {50:500,60:600,70:700,80:800}
+
