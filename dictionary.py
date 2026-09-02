@@ -29,14 +29,14 @@ print(d)
 # fromkeys() -: returns a dictionary with the specific keys and value.
 
 q = d.fromkeys([10,20,30,40],50)
-print(q)
+print(q)                          # {10:50,20:50,30:50,40:50}
 
 # get() -: d.get() and d[] both are same.
 
 d = {10:100,20:200,30:300,40:400} 
 print(d.get(10))                   # 100
 
-# items() -:
+# items() -: returns a list containing the dictionary's key.
 
 print(d.items())
 
