@@ -26,24 +26,24 @@ for i in l:
 
 s = {10,20,30,40}
 
-# 1. add -:
+# 1. add() -:
 
 s.add(60)
 print(s)       # {40,10,20,60,30}
 
-# 2. clear -:
+# 2. clear() -:
 
 s.clear()
 print(s)        # set()
 
-# 3. discard -:
+# 3. discard() -:
 
 s = {10,20,30,40}
 
 s.discard(30)
 print(s)        # {40,10,20}
 
-# 4. pop -: remove an element from set. (randomly popped)
+# 4. pop() -: remove an element from set. (randomly popped)
 
 s = {10,20,30,40}
 
@@ -51,3 +51,10 @@ a = s.pop()
 print(s)       # {10,20,30}
 print(a)       # 40
 
+# 5. difference() -:  shortcut -> "-" -> returns a set containing the difference between two or more sets.
+
+s1 = {10,20,30,40}
+s2 = {30,40,50,60}
+
+print(s1.difference(s2))     # print(s1-s2) = {10,20}
+print(s2.difference(s1))     # print(s2-s1) = {50,60}
