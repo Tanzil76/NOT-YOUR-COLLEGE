@@ -16,7 +16,27 @@ print(d)                         # {10:100,20:200,30:300,40:400,50:500}
 
 d = {10:11,20:200,30:300,40:400} 
 d[10] = 100
-print(d)
+print(d)                         # {10:100,........}
 
 # Methods Approach -:
+
+# clear() -: clears all the elements in dictionary.
+
+d = {10:100,20:200,30:300,40:400} 
+d.clear()
+print(d)
+
+# fromkeys() -: returns a dictionary with the specific keys and value.
+
+q = d.fromkeys([10,20,30,40],50)
+print(q)
+
+# get() -: d.get() and d[] both are same.
+
+d = {10:100,20:200,30:300,40:400} 
+print(d.get(10))                   # 100
+
+# items() -:
+
+print(d.items())
 
