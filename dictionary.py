@@ -86,3 +86,12 @@ print(d1)
 #  fir d2[i] -> d2[d] = 40 ho jayega iska mtlb jo naya key bana hai usme d1[d] usme 40 assign ho jayega 
 # fir krkte krte sb ho jayeange vice-versa. 
 # print hoga {'a':10,'b':20,'c':30,'d':40,'e':50,'f':60} 
+
+# 2. Sum all values in a dictionary.
+
+d1 = {"a":10,"b":20,"c":30}
+sum = 0
+
+for i in d1:
+    sum = sum + d1[i]
+print(sum)
