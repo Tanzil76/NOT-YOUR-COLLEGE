@@ -110,6 +110,14 @@ print(d)
 
 # 4. Combine two dicts, adding values for common keys.
 
+d1 = {"a":10,"b":20,"c":30} 
+d2 = {"c":40,"e":50,"f":60}
 
+for i in d2:
+    if i in d.keys():
+        d1[i] = d1[i] + d2[i]
+    else:
+        d1[i] = d2[i]
+print(d1)
 
 
