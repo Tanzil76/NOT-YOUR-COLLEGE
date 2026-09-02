@@ -40,3 +40,12 @@ print(d.get(10))                   # 100
 
 print(d.items())
 
+# pop() -: pop elements from specified keys.
+
+print(d.pop(20))                    # 200
+
+# popitem() -: remove last element.
+
+print(d.popitem())
+print(d)
+
