@@ -94,4 +94,18 @@ sum = 0
 
 for i in d1:
     sum = sum + d1[i]
-print(sum)
+print(sum)                 
+
+# 3. Count the frequency of each element in a list using a dictionary.
+
+l = ["a","b","c","a","b","c","a","b","c"]
+d = {}
+
+for i in l:
+    if i in d.keys():
+        d[i] = d[i] + 1
+    else:
+        d[i] = 1
+print(d)
+
+
