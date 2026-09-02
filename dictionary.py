@@ -49,3 +49,14 @@ print(d.pop(20))                    # 200
 print(d.popitem())
 print(d)
 
+# setdefault() -: give new key value pair.
+
+d = {10:100,20:200,30:300,40:400} 
+print(d.setdefault(60,3000))
+print(d)
+
+# update() -:
+
+d = {10:100,20:200,30:300,40:400} 
+print(d.update({10:1000}))
+print(d)
