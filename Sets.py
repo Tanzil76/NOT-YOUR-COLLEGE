@@ -58,3 +58,16 @@ s2 = {30,40,50,60}
 
 print(s1.difference(s2))     # print(s1-s2) = {10,20}
 print(s2.difference(s1))     # print(s2-s1) = {50,60}
+
+# 6. difference_update() -: shortcut -> "-=" -> removes the items in this set that are also included in another, specified set.
+
+s2 -= s1
+print(s2)                    # {50,60}
+
+# 7. intersection() -: "&" -> 
+
+s1 = {10,20,30,40}
+s2 = {30,40,50,60}
+print(s1 & s2)          #  print(s1.intersection(s2)) -> {40,30}
+
+# 8. 
