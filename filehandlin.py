@@ -17,8 +17,13 @@
 
 # file.write(data)
 
-# This helps to show file data -:
+# This helps to access file data -:
 
 # file = open("Loops.py","r")
 
 # print(file.read())
+
+# This helps to update file data -:
+
+# with open("Python.txt","a") as f:
+#     f.write(" " + "I want to see if it is working or not")
