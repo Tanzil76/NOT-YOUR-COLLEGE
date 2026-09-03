@@ -84,7 +84,7 @@ print(d1)
 # sbse pehle d2 mai i chalega d pr 
 # pr fir uske baad d1[i] -> d1[d] - yeh new key ban gya d1 mai
 #  fir d2[i] -> d2[d] = 40 ho jayega iska mtlb jo naya key bana hai usme d1[d] usme 40 assign ho jayega 
-# fir krkte krte sb ho jayeange vice-versa. 
+# fir ek ek krke sb ho jayega vice-versa.
 # print hoga {'a':10,'b':20,'c':30,'d':40,'e':50,'f':60} 
 
 # 2. Sum all values in a dictionary.
