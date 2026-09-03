@@ -17,5 +17,8 @@
 
 # file.write(data)
 
-file = open("Python.txt","r")
-print(file.read())
+# This helps to show file data -:
+
+# file = open("Loops.py","r")
+
+# print(file.read())
