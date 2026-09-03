@@ -94,7 +94,7 @@ sum = 0
 
 for i in d1:
     sum = sum + d1[i]
-print(sum)                 
+print(sum)                  # 60
 
 # 3. Count the frequency of each element in a list using a dictionary.
 
@@ -106,7 +106,7 @@ for i in l:
         d[i] = d[i] + 1
     else:
         d[i] = 1
-print(d)
+print(d)                   # {'a':3,'b':3,'c':3}
 
 # 4. Combine two dicts, adding values for common keys.
 
@@ -118,6 +118,6 @@ for i in d2:
         d1[i] = d1[i] + d2[i]
     else:
         d1[i] = d2[i]
-print(d1)
+print(d1)                 # {'a':10,'b':20,'c':70.'e':50,'f':60}
 
 
