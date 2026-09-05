@@ -22,7 +22,7 @@ addition(50,50)
 # Check palindrome using function.
 
 def palindrome_checker(a):
-    copy = a
+    # copy = a
     rev = 0
 
     while a > 0:
