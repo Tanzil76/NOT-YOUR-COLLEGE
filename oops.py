@@ -80,7 +80,12 @@ class Animal:
     def details(cls):         # Class method - Captures the location of class.
         print(f"How are you my name is {cls.a}")
 
+    @staticmethod
+    def speak():              # This is a static method and it will not target any location.
+        print("Hello! How are you I am a Static Method")
+
 obj = Animal("Lion")
 
 obj.hello()                                     # Output - How are you my name is Lion
 obj.details()                                   # Output - How are you my name is 12
+obj.speak()                                     # Output - Hello! How are you I am a Static Method
