@@ -67,10 +67,10 @@ print(obj2.material)
 # 4. Attributes and Methods -:
 
 class Animal:
-    a = 12    # Class attribute
+    a = 12    # Class attribute - A normal variable created inside a class.
 
     def __init__(self,name):
-        self.name = name      # Object/Instance attribute
+        self.name = name      # Object/Instance attribute - An attribute created using an instance like self.name, self.age etc.
 
     def hello(self):          # Object/Instance method - Captures the location of object.
         print(f"How are you my name is {self.name}")
