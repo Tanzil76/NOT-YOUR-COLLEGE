@@ -14,6 +14,7 @@ addition(12,13)
 
 # 1. Class -: it stores attributes and methods.
 
+# Syntax of class -:
 class Car:
     a = 12                             # attributes - variables that define in class is know as attributes.
 
@@ -44,3 +45,21 @@ print(obj1.name)
 print(obj2.name)
 
 obj1.details()
+
+# 3. Constructor -: A constructor is a method that runs automatically when we call a class and this constructor function will target the objects location.
+#  constructor function - > def __init__(self):
+                              # pass
+
+class Bags:
+    def __init__(self,material,zips,pockets):     # 'self' captures objects location 
+        self.material = material
+        self.zips = zips
+        self.pockets = pockets
+
+# Creating an object with a value.
+obj1 = Bags("Leather" , 3 , 2)
+obj2 = Bags("Polyster" , 3 , 4)
+
+# Accessing the attribute.
+print(obj1.material)
+print(obj2.material)
