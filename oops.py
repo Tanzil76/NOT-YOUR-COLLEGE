@@ -23,8 +23,8 @@ class Car:
 
 # You can access attributes 
 # and methods after accessing  the class
-print(Car.a)   # accessing attributes
-Car.hello()    # accessing methods
+print(Car.a)   # accessing attributes             # Output - 12
+Car.hello()    # accessing methods                # Output - Hello! How are you
 
 # 2. Objects -:
 
@@ -41,10 +41,10 @@ obj1 = Bags()
 obj2 = Bags()
 
 # Accessing the atrributes
-print(obj1.name)
-print(obj2.name)
+print(obj1.name)                     # Output - Not Your College
+print(obj2.name)                     # Output - Not Your College
 
-obj1.details()
+obj1.details()                       # Output - Hello this is a company who creates bag
 
 # 3. Constructor -: A constructor is a method that runs automatically when we call a class and this constructor function will target the objects location.
 #  constructor function - > def __init__(self):
@@ -61,8 +61,8 @@ obj1 = Bags("Leather" , 3 , 2)
 obj2 = Bags("Polyster" , 3 , 4)
 
 # Accessing the attribute.
-print(obj1.material)
-print(obj2.material)
+print(obj1.material)          # Ouput - Leather
+print(obj2.material)          # Output - Polyster
 
 # 4. Attributes and Methods -:
 
@@ -82,5 +82,5 @@ class Animal:
 
 obj = Animal("Lion")
 
-obj.hello()
-obj.details()
+obj.hello()                                     # Output - How are you my name is Lion
+obj.details()                                   # Output - How are you my name is 12
