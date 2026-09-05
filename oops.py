@@ -75,7 +75,7 @@ class Animal:
     def hello(self):          # Object/Instance method - Captures the location of object.
         print(f"How are you my name is {self.name}")
 
-    @classmethod     # Decorators
+    @classmethod             # Decorators
     # jaise hi mai decorators lgata hu upar mai tbhi neeche wala jo method hai jo object ban skta tha lekin ab woh ek class ban gya hai.
     def details(cls):         # Class method - Captures the location of class.
         print(f"How are you my name is {cls.a}")
