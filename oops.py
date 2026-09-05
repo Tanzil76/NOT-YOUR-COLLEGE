@@ -24,3 +24,23 @@ class Car:
 # and methods after accessing  the class
 print(Car.a)   # accessing attributes
 Car.hello()    # accessing methods
+
+# 2. Objects -:
+
+class Bags:
+    name = "Not Your College"
+
+    def details(self):
+        print("Hello this is a company who creates bag")
+
+# Call the class inside a variable and that variable becomes an object.
+# object has all the powers of a class therefore a class object can access atributes and methods of a class.
+# Creating an object
+obj1 = Bags()       
+obj2 = Bags()
+
+# Accessing the atrributes
+print(obj1.name)
+print(obj2.name)
+
+obj1.details()
