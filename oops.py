@@ -90,7 +90,7 @@ obj.hello()                                     # Output - How are you my name i
 obj.details()                                   # Output - How are you my name is 12
 obj.speak()                                     # Output - Hello! How are you I am a Static Method
 
-# 3. Inheritance -:
+# 5. Inheritance -:
 
 class Animal:             # Parent Class 
     a = 12
