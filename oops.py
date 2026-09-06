@@ -90,7 +90,11 @@ obj.hello()                                     # Output - How are you my name i
 obj.details()                                   # Output - How are you my name is 12
 obj.speak()                                     # Output - Hello! How are you I am a Static Method
 
-# 5. Inheritance -:
+# 5. Inheritance -: It works between classes.
+# Benefits of using Inheritance -:
+# i. Code reusability
+# ii. Organized structure
+# iii. Easy to maintain and extend
 
 class Animal:             # Parent Class 
     a = 12
@@ -100,7 +104,8 @@ class Animal:             # Parent Class
     def details(self):
         print(f"Hello your name is {self.name}")
 
-class Humans(Animal):      # Child Class
+# Syntax of Inheritance -: Take parameters in functions here you will take parameters but those parameters will be classes.
+class Humans(Animal):      # Child Class - Now the inherited class has all the powers of parent class that means all the methods, attributes can be accessed by the instance of child as well.
     pass
 
 obj1 = Animal("Lion")
