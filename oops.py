@@ -106,5 +106,7 @@ class Humans(Animal):      # Child Class
 obj1 = Animal("Lion")
 obj2 = Humans("Tanzil")
 
-obj2.details()
-print(obj2.a)
+obj2.details()            # Hello your name is Tanzil
+print(obj2.a)             # 12
+
+# Your Child Class objects has all the powers to access the attributes and methods of Parent Class.
