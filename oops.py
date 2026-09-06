@@ -89,3 +89,22 @@ obj = Animal("Lion")
 obj.hello()                                     # Output - How are you my name is Lion
 obj.details()                                   # Output - How are you my name is 12
 obj.speak()                                     # Output - Hello! How are you I am a Static Method
+
+# 3. Inheritance -:
+
+class Animal:             # Parent Class 
+    a = 12
+    def __init__(self,name):
+        self.name = name
+
+    def details(self):
+        print(f"Hello your name is {self.name}")
+
+class Humans(Animal):      # Child Class
+    pass
+
+obj1 = Animal("Lion")
+obj2 = Humans("Tanzil")
+
+obj2.details()
+print(obj2.a)
