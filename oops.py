@@ -115,3 +115,29 @@ obj2.details()            # Hello your name is Tanzil
 print(obj2.a)             # 12
 
 # Your Child Class objects has all the powers to access the attributes and methods of Parent Class.
+
+# Solve -:
+
+class BagFactory:
+    def __init__(self,material,zips,pockets):
+        self.material = material
+        self.zips = zips
+        self.pockets = pockets
+
+    def details(self):
+        print("Your bag details are -: ")
+        print(self.material)
+        print(self.zips)
+        print(self.pockets)
+
+class Reebok(BagFactory):
+    def __init__(self, material, zips, pockets,color):            # color - extra add
+        super().__init__(material, zips, pockets)                 # super() - access the parent class.
+        self.color = color 
+    
+    def details(self):
+        print(self.color)
+        return super().details()
+
+bag1 = BagFactory("Leather",3,4)
+bag2 = Reebok("Polyster",4,2,"black")
