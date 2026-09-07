@@ -16,7 +16,7 @@ addition(12,13)
 
 # Syntax of class -:
 class Car:
-    a = 12                             # attributes - variables that define in class is know as attributes.
+    a = 12                             # attributes - variables that define in class is known as attributes.
 
     def hello():                       # Methods - functions that define in class is known as methods.
         print("Hello! How are you")
@@ -141,3 +141,5 @@ class Reebok(BagFactory):
 
 bag1 = BagFactory("Leather",3,4)
 bag2 = Reebok("Polyster",4,2,"black")
+
+bag2.details()
