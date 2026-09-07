@@ -184,10 +184,10 @@ class Animal:
 class Humans(Animal):
     b = 12
     def details(self):
-        super().details()   # this is for calling animal class method.
+        # super().details() -: this is for calling animal class method.
         print(f"Your info is {self.name} and this is all we have")
 
 obj = Humans("Tanzil")
 # This only calls Humans class methods.
-obj.details()                        #  Your info is Tanzil and this is all we have
+obj.details()                        # Output -: Your info is Tanzil and this is all we have
 
