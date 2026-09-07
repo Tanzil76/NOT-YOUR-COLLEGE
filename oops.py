@@ -208,3 +208,5 @@ obj.details()                        # Output -: Your info is Tanzil and this is
 # When we are doing inheritance and parent and child classes have same method name so the child class method will override your parent 
 # class method.
 
+# 7. Encapsulation -:
+
