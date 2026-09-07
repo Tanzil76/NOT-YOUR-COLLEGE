@@ -168,3 +168,22 @@ robo = Robots(12,"Tanzil")
 print(robo.id)
 print(robo.name)
 
+# 6. Polymorphism -:
+
+class Animal:
+    a = 12
+    def __init__(self,name):
+        self.name = name
+
+    def details(self):
+        print(f"Your name is {self.name}")
+
+class Humans(Animal):
+    b = 12
+    def details(self):
+        super().details()
+        print(f"Your info is {self.name} and this is all we have")
+
+obj = Humans("Tanzil")
+obj.details()    
+
