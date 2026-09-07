@@ -170,6 +170,9 @@ print(robo.name)
 
 # 6. Polymorphism -:
 
+
+# Method Overriding -:
+
 class Animal:
     a = 12
     def __init__(self,name):
@@ -181,9 +184,10 @@ class Animal:
 class Humans(Animal):
     b = 12
     def details(self):
-        super().details()
+        super().details()   # this is for calling animal class method.
         print(f"Your info is {self.name} and this is all we have")
 
 obj = Humans("Tanzil")
-obj.details()    
+# This only calls Humans class methods.
+obj.details()                        #  Your info is Tanzil and this is all we have
 
