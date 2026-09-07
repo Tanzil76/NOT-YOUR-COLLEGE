@@ -146,9 +146,7 @@ bag2.details()
 print(bag1.material)
 print(bag2.color)
 
-# Multiple Inheritance -: means there will be 2 parent classes and only 1 child class and the child class will inherit all the attributes
-# and methods of both parents.The Constructor function will be inherited of the first class that has been inherited. This is MRO(Method 
-# Resolution Order) followed by python.
+# Multiple Inheritance -:
 
 class Animal:
     def __init__(self,name):
@@ -158,6 +156,9 @@ class Humans:
     def __init__(self,id):
         self.id = id
 
+# Multiple Inheritance means there will be 2 parent classes and only 1 child class and the child class will inherit all the attributes 
+# and methods of both parents. The Constructor function will be inherited of the first class that has been inherited. This is MRO(Method 
+# Resolution Order) followed by python. 
 class Robots(Humans,Animal):
     def __init__(self, id,name):
         Humans.__init__(self,id)
