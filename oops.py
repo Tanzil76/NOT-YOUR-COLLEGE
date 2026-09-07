@@ -171,7 +171,9 @@ print(robo.name)
 # 6. Polymorphism -:
 
 
-# Method Overriding -:
+
+
+# Method Overriding -: we need innheritance
 
 class Animal:
     a = 12
@@ -181,7 +183,7 @@ class Animal:
     def details(self):
         print(f"Your name is {self.name}")
 
-class Humans(Animal):
+class Humans(Animal):     # Here inheritance is used.
     b = 12
     def details(self):
         # super().details() -: this is for calling animal class method.
@@ -190,4 +192,7 @@ class Humans(Animal):
 obj = Humans("Tanzil")
 # This only calls Humans class methods.
 obj.details()                        # Output -: Your info is Tanzil and this is all we have
+
+# When we are doing inheritance and parent and child classes have same method name so the child class method will override your parent 
+# class method.
 
