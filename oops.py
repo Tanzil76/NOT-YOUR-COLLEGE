@@ -170,7 +170,19 @@ print(robo.name)
 
 # 6. Polymorphism -:
 
+class Animal():
+    def speak(self):
+        print("Animals will not speak")
 
+class Humans:
+    def speak(self):
+        print("We are humans we can speak")
+
+obj1 = Animal()
+obj2 = Humans()
+
+obj1.speak()             # Animals will not speak
+obj2.speak()             # We are humans we can speak
 
 
 # Method Overriding -: we need innheritance
