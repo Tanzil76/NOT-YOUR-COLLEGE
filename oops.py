@@ -310,3 +310,11 @@ num2 = numbers(30)
 
 print(num1 + num2)
 print(num1 == num2)
+
+# Note -:
+
+a = 12
+b = 12
+
+print(a + b)
+print(dir(int))           # Multiple dunder methods are present in this.
