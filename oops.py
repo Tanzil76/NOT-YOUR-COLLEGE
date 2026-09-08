@@ -255,10 +255,10 @@ obj = Factory("Sedan","MRF","Black")
 # Abstract classed and methods -: Abstract classes that contains one or more abstract methods. A method that is defined but not 
 # implemented in the abstract clas. subclasses must provide the implementation.
 
-from abc import ABC , abstractmethod
+from abc import ABC , abstractmethod      # ABC = Abstract Base Class
 
 class enforce(ABC):
-    @abstractmethod
+    @abstractmethod                       # @abstractmethod = tells Python that enginestart() is an abstract method.
     def enginestart():
         pass
 
@@ -278,4 +278,16 @@ obj1 = bike()
 obj2 = car()
 obj3 = truck()
 
+# Dunder Methods -:
 
+class Animal:
+    def __init__(self,name):
+        self.name = name
+
+    def __str__(self):
+        return f"Hello my name is {self.name}"
+    
+obj = Animal("Lion")
+obj2 = Animal("Giraffe")
+print(obj)
+print(obj2)
