@@ -210,3 +210,18 @@ obj.details()                        # Output -: Your info is Tanzil and this is
 
 # 7. Encapsulation -:
 
+class Factory:
+    name = "Kia"  # Public class attribute
+
+    def __init__(self,type,tyre,color):
+        self.color = color        # Public object attribute
+        self.tyre = tyre
+        self.type = type
+
+    def details(self):        # Public method
+        print("Hello your details are -: ")
+
+obj = Factory("Sedan","MRF","Black")
+
+print(obj.name)
+
