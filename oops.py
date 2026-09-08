@@ -246,11 +246,33 @@ class Factory:
 
 obj = Factory("Sedan","MRF","Black")
 
-print(obj.__name)
+#print(obj.__name)
 
 # 8. Abstraction -: Abstraction does not exist in python but we can achieve it using a library we will see what is a library later. 
 # Abstraction is used to simplifying complex systems by focusing on essential features and hiding unnecessary details. 
 # It is used to define a common inteface for different classes.
 
+from abc import ABC , abstractmethod
+
+class enforce(ABC):
+    @abstractmethod
+    def enginestart():
+        pass
+
+
+class bike(enforce):
+    def enginestart():
+        pass 
+
+class car(enforce):
+    def enginestart():
+        pass
+
+class truck():
+    pass 
+
+obj1 = bike()
+obj2 = car()
+obj3 = truck()
 
 
