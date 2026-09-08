@@ -254,6 +254,7 @@ obj = Factory("Sedan","MRF","Black")
 
 # Abstract classed and methods -: Abstract classes that contains one or more abstract methods. A method that is defined but not 
 # implemented in the abstract clas. subclasses must provide the implementation.
+
 from abc import ABC , abstractmethod
 
 class enforce(ABC):
