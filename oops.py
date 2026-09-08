@@ -225,3 +225,19 @@ obj = Factory("Sedan","MRF","Black")
 
 print(obj.name)
 
+# 
+class Factory:
+    __name = "Kia"     # Private class attribute - put double underscore at starting to make it private.
+
+    def __init__(self,type,tyre,color):
+        self.__color = color        # Private object attribute
+        self.__tyre = tyre
+        self.__type = type
+
+    def __details(self):        # Private method
+        print("Hello your details are -: ")
+
+obj = Factory("Sedan","MRF","Black")
+
+print(obj.__name)
+
