@@ -278,8 +278,11 @@ obj1 = bike()
 obj2 = car()
 obj3 = truck()
 
-# Dunder Methods -:
+# Dunder Methods -: Dunder methods are special methods in Python that start and end with double underscores, like __init__, __str__,
+#  __add__, etc. They automatically get called when we perform certain actions on an object.
 
+# They Help us -: Customize behavior of our class.
+                 # Make our class objects behave like built-in data types (like string,list,etc).
 class Animal:
     def __init__(self,name):
         self.name = name
@@ -299,9 +302,11 @@ class numbers:
     def __init__(self,num):
         self.num = num
 
+    # Dunder method
     def __add__(self,other):
         return self.num + other.num
     
+    # Dunder method
     def __eq__(self,value):
         return self.num == value.num
     
