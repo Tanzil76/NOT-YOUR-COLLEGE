@@ -229,7 +229,7 @@ class Factory:
 
 obj = Factory("Sedan","MRF","Black")
 
-print(obj.name)
+print(obj.name)            # Kia
 
 # ii. Private Attributes and Methods - It cannot be accessed from outside the class - only from inside the class where it is defined. 
 # In Python, we use two underscores(__) before the name to make it private.
