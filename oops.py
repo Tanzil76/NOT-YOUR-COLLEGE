@@ -46,7 +46,8 @@ print(obj2.name)                     # Output - Not Your College
 
 obj1.details()                       # Output - Hello this is a company who creates bag
 
-# 3. Constructor -: A constructor is a method that runs automatically when we call a class and this constructor function will target the objects location.
+# 3. Constructor -: A constructor is a method that runs automatically when we call a class and this constructor function will target the 
+# objects location.
 #  constructor function - > def __init__(self):
                               # pass
 
@@ -208,8 +209,13 @@ obj.details()                        # Output -: Your info is Tanzil and this is
 # When we are doing inheritance and parent and child classes have same method name so the child class method will override your parent 
 # class method.
 
-# 7. Encapsulation -:
+# 7. Encapsulation -:  It keeps data safe from being changed by mistake. It makes your code clean easy to use. It gives control over what
+#  others can access or change.
 
+# Access Modifiers -:
+
+# i. Public Attributes and Methods - Till now every attributes and methods we have created are public means the inherited classes and 
+# objects can access them no matter what.
 class Factory:
     name = "Kia"  # Public class attribute
 
@@ -225,9 +231,10 @@ obj = Factory("Sedan","MRF","Black")
 
 print(obj.name)
 
-# 
+# ii. Private Attributes and Methods - It cannot be accessed from outside the class - only from inside the class where it is defined. 
+# In Python, we use two underscores(__) before the name to make it private.
 class Factory:
-    __name = "Kia"     # Private class attribute - put double underscore at starting to make it private.
+    __name = "Kia"     # Private class attribute
 
     def __init__(self,type,tyre,color):
         self.__color = color        # Private object attribute
