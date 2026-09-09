@@ -64,3 +64,10 @@ a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 b = [i for i in a if i % 2 == 0]
 
 print(b)
+
+# Lambda - : A lambda function is an anonymous, inline function defined using the lambda keyword.
+            # It's often used for short, simple functions that are used only once or temporarily.
+
+ # sbse pehle ek varibale banayenge , fir lambda expression likhenge , fir paramter denge, fir jo print krna hai woh likhenge.
+addition = lambda a,b : a + b
+print(addition(10,20))
