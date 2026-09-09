@@ -54,11 +54,13 @@ a = 20
 
 print("even number") if a % 2 == 0 else print("odd number")
 
+# Comprehension -:
+
 # List Comprehension -: 
 
 a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
-# sbe jo add krna hai list mai woh likhnege fir uske baad loop chalainge fir if-else condition check karenge.
+# sbe jo add krna hai list mai woh likhnege fir uske baad for loop chalainge fir if-else condition check karenge.
 b = [i for i in a if i % 2 == 0]
 
 print(b)
