@@ -39,3 +39,17 @@ def info(**kwargs):
     return kwargs
 
 print(info(name = "Tanzil", age = 24, profession = "A.I. Engineer"))
+
+# Important -:
+
+a = 20
+
+# if a % 2 == 0:
+#     print("even number")
+# else:
+#     print("odd number")
+
+# ternary operation - : mtlb ek line mai if else ka condition print krna.
+# sbse pehle jo print krna hai woh likhenge ,uske baad condition likhenge, fir jo print nhi hona hai woh likhenge.
+
+print("even number") if a % 2 == 0 else print("odd number")
