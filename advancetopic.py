@@ -76,17 +76,31 @@ print(b)
 addition = lambda a,b : a + b
 print(addition(10,20))
 
-# map() function -: Map is used for applying a function to multiple items. Takes a list (or any sequence). Applies the same function to every item in that list. Gives you back a new list (in Python 3, it gives a map object which you can convert to a list. Use map() when you want to transform every item in a list.
+# map() function -: Map is used for applying a function to multiple items. Takes a list (or any sequence). Applies the same function to 
+# every item in that list. Gives you back a new list (in Python 3, it gives a map object which you can convert to a list. Use map() when 
+# you want to transform every item in a list.
 
 a = ["Tanzil" , "Kaif" , "Danish"]
 
 length = list(map(len,a))
 print(length)                # [6, 4, 6]
 
-# filter() function -:
+# filter() function -:  Filter as the name suggest is used to filter out the stuff. Takes a list (or other sequence). Checks each item 
+# using a function (a test). Keeps only the items that pass the test (i.e., return True) 
 
 m = [35,80,40,12,60]
 
+# pehle ek varible banao, uske baad list banao, fir filter function lgao, uske baad lamba expression lgao, paramter daalo, fir condition 
+# daalo , jiss pr condition chalana hai woh likho.
 passed = list(filter(lambda x : x >= 40, m))
 
 print(passed)
+
+# zip() function -: binding two list.
+
+name = ["Tanzil" , "Kaif" , "Danish"]
+marks = [12,90,42,6,60]
+
+result = list(zip(name,marks))
+
+print(result)       # [('Tanzil', 12), ('Kaif', 90), ('Danish', 42)]
