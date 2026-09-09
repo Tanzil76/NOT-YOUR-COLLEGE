@@ -8,6 +8,7 @@ def extragreeting(func):
 
     return wrapper
 
+# This is Decorators -:
 @extragreeting
 def greetings():
     print("Good Morning")
