@@ -68,6 +68,10 @@ print(b)
 # Lambda - : A lambda function is an anonymous, inline function defined using the lambda keyword.
             # It's often used for short, simple functions that are used only once or temporarily.
 
+# def addition(a,b):
+#     print(a + b)
+# addition(12,13)
+
  # sbse pehle ek varibale banayenge , fir lambda expression likhenge , fir paramter denge, fir jo print krna hai woh likhenge.
 addition = lambda a,b : a + b
 print(addition(10,20))
