@@ -32,7 +32,7 @@ def addition(*args):
 print(addition(20,30,50,39,5,6,78,90))
 #  Note -: args create tuple
 
-# Kwargs(Keywordsarguments) -:
+# Kwargs(Keywordsarguments) -: kwargs are used for multiple key word arguments.
 # Note -: keywords arguments create dictionary then ,after in dictionary we pass keys and values pairs.
 
 def info(**kwargs):
