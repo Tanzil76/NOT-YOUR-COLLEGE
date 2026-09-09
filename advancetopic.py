@@ -21,7 +21,7 @@ greetings()
 # Good Morning 
 # Thank You visit again
 
-# Args -: specail keyword inpython used in function definitions to accept a flexible number of arguments.
+# Args -: specail keyword in python used in function definitions to accept a flexible number of arguments.
           # so *args are used for multiple positional arguments.
 def addition(*args):
     s = 0
@@ -30,3 +30,12 @@ def addition(*args):
     return s
 
 print(addition(20,30,50,39,5,6,78,90))
+#  Note -: args create tuple
+
+# Kwargs(Keywordsarguments) -:
+# Note -: keywords arguments create dictionary then ,after in dictionary we pass keys and values pairs.
+
+def info(**kwargs):
+    return kwargs
+
+print(info(name = "Tanzil", age = 24, profession = "A.I. Engineer"))
