@@ -10,7 +10,7 @@ def addition(a,b):
     print(a + b)
 addition(12,13)
 
-# OOPS -:
+# OOPS -:  Object Oriented Programming System
 
 # 1. Class -: it stores attributes and methods.
 
