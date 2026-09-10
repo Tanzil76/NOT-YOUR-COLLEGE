@@ -216,6 +216,7 @@ obj.details()                        # Output -: Your info is Tanzil and this is
 
 # i. Public Attributes and Methods - Till now every attributes and methods we have created are public means the inherited classes and 
 # objects can access them no matter what.
+
 class Factory:
     name = "Kia"  # Public class attribute
 
