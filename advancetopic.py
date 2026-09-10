@@ -24,6 +24,7 @@ greetings()
 
 # Args -: specail keyword in python used in function definitions to accept a flexible number of arguments.
           # so *args are used for multiple positional arguments.
+          
 def addition(*args):
     s = 0
     for i in args:
