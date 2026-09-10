@@ -106,8 +106,8 @@ class Animal:             # Parent Class
         print(f"Hello your name is {self.name}")
 
 # Syntax of Inheritance -: Take parameters in functions here you will take parameters but those parameters will be classes.
-class Humans(Animal):      # Child Class - Now the inherited class has all the powers of parent class that means all the methods, attributes can be accessed by the instance of child as well.
-    pass
+class Humans(Animal):      # Child Class - Now the inherited class has all the powers of parent class that means all the methods,
+    pass                  # attributes can be accessed by the instance of child as well.
 
 obj1 = Animal("Lion")
 obj2 = Humans("Tanzil")
