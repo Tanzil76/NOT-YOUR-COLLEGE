@@ -24,7 +24,7 @@ greetings()
 
 # Args -: specail keyword in python used in function definitions to accept a flexible number of arguments.
           # so *args are used for multiple positional arguments.
-          
+
 def addition(*args):
     s = 0
     for i in args:
@@ -51,7 +51,7 @@ a = 20
 # else:
 #     print("odd number")
 
-# ternary operation - : mtlb ek line mai if else ka condition print krna.
+# Ternary Operation - : mtlb ek line mai if else ka condition print krna.
 # sbse pehle jo print krna hai woh likhenge ,uske baad condition likhenge, fir jo print nhi hona hai woh likhenge.
 
 print("even number") if a % 2 == 0 else print("odd number")
