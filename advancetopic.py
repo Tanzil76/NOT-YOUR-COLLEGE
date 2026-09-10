@@ -1,6 +1,7 @@
 # Decorators -: A decorator is just a function that modifies another function without changing its actual code.
                # For creating a decorator you first have to create a decorator functions and then inside that we will create a wrapper.
-def extragreeting(func):
+
+def extragreeting(func):                                         
     def wrapper():
         print("Helllo from the NYC team")
         func()
