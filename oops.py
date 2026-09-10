@@ -186,7 +186,7 @@ obj1.speak()             # Animals will not speak
 obj2.speak()             # We are humans we can speak
 
 
-# Method Overriding -: we need innheritance
+# Method Overriding -: We need Inheritance
 
 class Animal:
     a = 12
