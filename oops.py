@@ -12,7 +12,7 @@ addition(12,13)
 
 # OOPS -:  Object Oriented Programming System
 
-# 1. Class -: it stores attributes and methods.
+# 1. Class -: It stores attributes and methods.
 
 # Syntax of class -:
 class Car:
