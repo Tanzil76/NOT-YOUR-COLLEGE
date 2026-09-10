@@ -16,7 +16,7 @@ addition(12,13)
 
 # Syntax of class -:
 class Car:
-    a = 12                             # attributes - variables that define in class is known as attributes.
+    a = 12                             # Attributes - variables that define in class is known as attributes.
 
     def hello():                       # Methods - functions that define in class is known as methods.
         print("Hello! How are you")
