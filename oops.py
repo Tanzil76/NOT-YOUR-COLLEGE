@@ -48,7 +48,7 @@ obj1.details()                       # Output - Hello this is a company who crea
 
 # 3. Constructor -: A constructor is a method that runs automatically when we call a class and this constructor function will target the 
 # objects location.
-#  constructor function - > def __init__(self):
+#  constructor function - > def __init__(self):        -> Initialization Function
                               # pass
 
 class Bags:
