@@ -106,3 +106,26 @@ marks = [12,90,42,6,60]
 result = list(zip(name,marks))
 
 print(result)       # [('Tanzil', 12), ('Kaif', 90), ('Danish', 42)]
+
+
+
+
+
+
+
+
+
+
+class Outer:
+  def __init__(self):
+    self.name = "Outer Class"
+
+  class Inner:
+    def __init__(self):
+      self.name = "Inner Class"
+
+    def display(self):
+      print("This is the inner class")
+
+outer = Outer()
+print(outer.name)
