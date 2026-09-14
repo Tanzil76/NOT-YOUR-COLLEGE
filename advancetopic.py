@@ -1,4 +1,4 @@
-# Decorators -: A decorator is just a function that modifies another function without changing its actual code.
+# Decorators -: A Decorator is just a function that modifies another function without changing its actual code.
                # For creating a decorator you first have to create a decorator functions and then inside that we will create a wrapper.
 
 def extragreeting(func):                                         
