@@ -91,7 +91,7 @@ obj.hello()                                     # Output - How are you my name i
 obj.details()                                   # Output - How are you my name is 12
 obj.speak()                                     # Output - Hello! How are you I am a Static Method
 
-# 5. Inheritance -: It works between classes.
+# 5. Inheritance -: It works between classes. Types - Multilevel Inheritance, Multiple Inheritance
 # Benefits of using Inheritance -:
 # i. Code reusability
 # ii. Organized structure
