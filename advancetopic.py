@@ -108,13 +108,9 @@ result = list(zip(name,marks))
 print(result)       # [('Tanzil', 12), ('Kaif', 90), ('Danish', 42)]
 
 
+# Innner Class -:
 
-
-
-
-
-
-
+# Solve -:
 
 class Outer:
   def __init__(self):
@@ -129,7 +125,6 @@ class Outer:
 
 outer = Outer()
 print(outer.name)
-
 
 
 
