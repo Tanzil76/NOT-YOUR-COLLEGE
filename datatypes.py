@@ -1,13 +1,13 @@
-#Numbers -:
+# Numbers -:
 
 a = -23
 b = 45
 c = 56
 
-#int - 0 to infinity and -1 to negative infinity
+# int - 0 to infinity and -1 to negative infinity
 print(type(c))
 
-#float - decimal and fraction number
+# float - decimal and fraction number
 d = 12.1
 print(type(d))
 
