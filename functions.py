@@ -1,4 +1,5 @@
-# Functions - A function is a reusable block of code with a name. Instead of writing the same logic 10 times, you write it ince as a fucntion and call it 10 times.
+# Functions - A function is a reusable block of code with a name. Instead of writing the same logic 10 times, you write it once as a
+#  function and call it 10 times.
 # Two functions -: 
 
 # Pre-defined - print(), float(), int(), input(), len()
