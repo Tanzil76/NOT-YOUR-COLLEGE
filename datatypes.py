@@ -11,17 +11,17 @@ print(type(c))
 d = 12.1
 print(type(d))
 
-#complex - imaginary number
+# complex - imaginary number
 e = 12 + 3j
 print(type(e))
 
-#String -: anything inside quotes- "" or ''
+# String -: anything inside quotes- "" or ''
 
 name = 'NYC'
 print(type(name))
 print(name)
 
-#Boolean -: 
+# Boolean -: 
 
 g = True
 h = False
