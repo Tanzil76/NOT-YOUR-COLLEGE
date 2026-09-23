@@ -43,13 +43,13 @@ for i in range(1, 11):
         break
     print(i)   # 1 2 3 4 
 
-   # continue -: jump from the value
+   # continue -: Jump from the value
 for i in range(1, 11):
     if i == 5:
         continue
     print(i)     # 1 2 3 4 6 7 8 9 10
 
-   # else -: it works with break means if break works else will not work and if break dosen't work then else work.
+   # else -: It works with break means if break works else will not work and if break dosen't work then else work.
 for i in range(1, 11):
     if i == 45:
         break
@@ -65,7 +65,7 @@ n = int(input("Tell your number -: "))
 for i in range(n):
     print("Hello World")
 
-# 2. print natural numbers from 1 to n.
+# 2. Print natural numbers from 1 to n.
 
 n = int(input("Tell how many natural numbers you want -: "))
 for i in range(1,n+1):
