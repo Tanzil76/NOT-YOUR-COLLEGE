@@ -35,7 +35,7 @@ class Bags:
         print("Hello this is a company who creates bag")
 
 # Call the class inside a variable and that variable becomes an object.
-# object has all the powers of a class therefore a class object can access atributes and methods of a class.
+# Object has all the powers of a class therefore a class object can access atributes and methods of a class.
 # Creating an object
 obj1 = Bags()       
 obj2 = Bags()
@@ -48,7 +48,7 @@ obj1.details()                       # Output - Hello this is a company who crea
 
 # 3. Constructor -: A constructor is a method that runs automatically when we call a class and this constructor function will target the 
 # objects location.
-#  constructor function - > def __init__(self):        -> Initialization Function
+#  Constructor function - > def __init__(self):        -> Initialization Function
                               # pass
 
 class Bags:
